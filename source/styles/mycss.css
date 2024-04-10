@@ -129,13 +129,15 @@ footer,
 
 .weather-block {
     color: aquamarine;
-    margin-left: 40px;
+    margin-left: 130px;
 }
 
 .weather-info.responsive {
-    background-color: rgb(26, 26, 26);
+    background-color: rgb(26, 25, 25);
     color: aquamarine;
-    margin-left: 40px;
+    margin-left: 60px;
+    width: 400px;
+    height: 200px ;
 }
 
 .month.winter {
@@ -177,6 +179,233 @@ text-indent: initial;
 
 .attachment-thumbnail.wp-post-image {
     margin-left: 35px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 620px)
+{
+    .for-travels {
+        padding: 0 15px 20px;
+        text-align: left;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 1024px)
+{
+    .for-travels {
+        padding: 0;
+    }
+}
+
+.for-travels {
+    max-width: 1280px;
+    margin: 0 auto 20px;
+    padding: 0 20px;
+    text-align: center;
+    color: aquamarine;
+}
+
+@media screen and (min-width: 0px) and (max-width: 620px)
+{
+    .sm {
+        display: block;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 1.4;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 620px)
+{
+    .for-travels .scroll-mob-in, .for-travels .scroll-mob-block {
+        white-space: unset;
+        overflow: unset;
+        overflow-y: unset;
+        overflow-x: unset;
+        -webkit-overflow-scrolling: unset;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 1024px)
+{
+    .scroll-mob-block {
+        overflow: hidden;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 1024px)
+{
+    .scroll-mob-in {
+        cursor: grab;
+        padding-bottom: 20px;
+        margin-bottom: -20px;
+        -webkit-overflow-scrolling: touch;
+        display: block;
+        white-space: nowrap;
+        overflow: hidden;
+        overflow-y: hidden;
+        overflow-x: scroll;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 620px)
+{
+    .pb-avia {
+        background-size: 35px;
+        background-position: 0 0;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 620px)
+{
+    .partners-block {
+        width: 100%;
+        margin: 20px 0 0 0;
+        box-shadow: none;
+        border-top: 0;
+        padding: 0 0 0 50px;
+        min-height: 0;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 1024px)
+{
+    .pb-avia {
+        background-size: 42px;
+        background-position: 14px 17px;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 1024px)
+{
+    .partners-block {
+        margin: 0 0 20px 20px;
+        padding: 70px 10px 5px 15px;
+        min-height: 153px;
+        width: 250px;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 1120px)
+{
+    .partners-block {
+        width: 32%;
+    }
+}
+.pb-avia {
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: 18px 22px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 620px)
+{
+    .pb-tours {
+        background-size: 31px;
+        background-position: 0 0;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 1024px)
+{
+    .pb-tours {
+        background-size: 38px;
+        background-position: 18px 19px;
+    }
+}
+
+.pb-tours {
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: 18px 22px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 1024px)
+{
+    .pb-z {
+        font-size: 17px;
+    }
+}
+
+.pb-z {
+    font-size: 18px;
+    display: block;
+    line-height: 1.4;
+}
+
+
+.pb-t {
+    font-size: 14px;
+    display: block;
+    line-height: 1.4;
+    margin: 6px 0;
+}
+
+
+.partners-block {
+    border-top: 1px solid #f9f9f9;
+    display: inline-block;
+    position: relative;
+    width: 24%;
+    margin: 0 1% 25px 0;
+    border-radius: 15px;
+    vertical-align: top;
+    box-shadow: rgb(0 0 0 / 8%) 0px 5px 15px;
+    min-height: 188px;
+    text-align: left;
+    padding: 90px 10px 20px 20px;
+    white-space: initial;
+}
+a {
+    color: #0c73fe;
+}
+a {
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+
+@media screen and (min-width: 0px) and (max-width: 620px)
+{
+    .pb-hotel {
+        background-size: 31px;
+        background-position: 0 0;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 1024px)
+{
+    .pb-hotel {
+        background-size: 37px;
+        background-position: 16px 18px;
+    }
+}
+
+.pb-hotel {
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: 18px 22px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 620px)
+{
+    .pb-exc {
+        background-size: 30px;
+        background-position: 0 0;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 1024px)
+{
+    .pb-exc {
+        background-size: 36px;
+        background-position: 14px 19px;
+    }
+}
+
+.pb-exc {
+    background-size: 45px;
+    background-repeat: no-repeat;
+    background-position: 22px 27px;
 }
 
 .text-city {
@@ -403,9 +632,10 @@ h4 {
 h2 {
     display: block;
     font-size: 1.5em;
+    margin-left: 20px;
     margin-block-start: 0.83em;
     margin-block-end: 0.83em;
-    margin-inline-start: 0px;
+    margin-inline-start: 40px;
     margin-inline-end: 0px;
     font-weight: bold;
     color: rgb(255, 255, 255);
@@ -503,4 +733,12 @@ figcaption {
 
 .post__collage-text2 {
     margin-top: -2%;
+}
+
+.spas-img {
+    margin-bottom: 20px;
+}
+
+.post__collage-text {
+    margin-bottom: 20px;
 }
